@@ -89,12 +89,15 @@
   .m5 {
     margin-top: 5rem;
   }
-
+  .big-vertical-margin {
+    padding: 8rem 0 7rem;
+    li{
+      line-height: 1.9em;
+    }
+  }
 }
 
-.big-vertical-margin {
-  padding: 8rem 0 7rem;
-}
+
 
 @include respond(tab-port) {
   .big-vertical-margin {

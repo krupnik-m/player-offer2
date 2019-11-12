@@ -101,7 +101,7 @@ h1 {
     margin-right: 0.5rem; }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   color: #fff;
@@ -234,9 +234,10 @@ a, li {
       font-size: 2rem; } }
   .container_ .m5 {
     margin-top: 5rem; }
-
-.big-vertical-margin {
-  padding: 8rem 0 7rem; }
+  .container_ .big-vertical-margin {
+    padding: 8rem 0 7rem; }
+    .container_ .big-vertical-margin li {
+      line-height: 1.9em; }
 
 @media only screen and (max-width: 56.25em) {
   .big-vertical-margin {
