@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+    min-width: 390px;
+
+    @include respond(tab-land) { // width < 1200?
+        font-size: 60%; //1 rem = 9px, 9/16 = 50%
+    }
+
+    @include respond(tab-port) { // width < 900?
+        font-size: 56.25%; //1 rem = 8px, 8/16 = 50%
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75%; //1rem = 12, 12/16
+    }
+}
+
+body {
+    box-sizing: border-box;
+    background-size: 1600px;
+    background-position-y: -180px;
+    background-color: $color-black;
+}
+
+::selection {
+    background-color: $color-blue;
+    color: $color-white;
+}
+header{
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+b, strong {
+    font-weight: 700;
+}
+.button {
+    text-decoration: none;
+    background-color: #FFFF33;
+    border: 1px solid #FFFF33;
+    color: #000;
+    cursor: pointer;
+    padding: 0 1rem;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.8em;
+    margin: 0 auto;
+    outline: none;
+    text-transform: uppercase;
+}

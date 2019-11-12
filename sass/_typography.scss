@@ -1,0 +1,51 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.29;
+  color: $color-white;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: $color-white;
+  text-transform: uppercase;
+  line-height: normal;
+  margin: 3rem 0 3rem;
+  text-align: center;
+
+  span {
+    display:inline-block;
+    background: #FF0068;
+    width: 5rem;
+    height: 5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+  }
+}
+h2 {
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: $color-white;
+  text-transform: uppercase;
+  line-height: normal;
+  margin: 3rem 0 3rem;
+  text-align: center;
+}
+h5{
+  font-size: 3rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -2.9rem;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 2rem;
+}
+a, li {font-family: "Lato", sans-serif;}

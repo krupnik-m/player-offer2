@@ -1,0 +1,23 @@
+  .for-deskop{
+    display: block;
+  }
+  .for-mobile{
+    display: none;
+  }
+
+  @include respond(tab-land) { // width < 1200?
+
+  }
+
+  @include respond(tab-port) { // width < 900?
+    .for-deskop{
+      display: none;
+    }
+    .for-mobile{
+      display: block;
+    }
+  }
+
+  @include respond(big-desktop) {
+
+  }
