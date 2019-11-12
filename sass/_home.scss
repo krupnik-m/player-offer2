@@ -20,19 +20,19 @@
 
 .button.header-button {
   position: absolute;
-  width: 10%;
-  top: 69%;
+  width: 12%;
+  top: 63%;
   padding: 0;
-  left: calc(50% - 5%);
+  left: calc(50% - 6%);
   font-size: 1.9rem;
 
   @include respond(tab-land) { // width < 1200?
-    top: 67.5%;
+    top: 63.5%;
     font-size: 1.7rem; //1 rem = 9px, 9/16 = 50%
   }
 
   @include respond(tab-port) {
-    top: 62%;
+    top: 59%;
     width: 24%;
     left: calc(50% - 12%);
     font-size: 2rem;

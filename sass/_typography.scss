@@ -17,14 +17,18 @@ h1 {
   text-align: center;
 
   span {
-    display:inline-block;
-    background: #FF0068;
-    width: 5rem;
-    height: 5rem;
-    line-height: 4.5rem;
+    display: inline-block;
+    background: #65dcfb;
+    width: 5.2rem;
+    height: 5.2rem;
+    line-height: 4.8rem;
     border-radius: 50%;
+    text-shadow: #007da5 1px 0 10px;
+    text-align: center;
+    margin-left: -3rem;
   }
 }
+
 h2 {
   font-size: 3rem;
   font-family: 'Lato', sans-serif;
@@ -38,7 +42,7 @@ h2 {
 h5{
   font-size: 3rem;
   font-family: "Open Sans Condensed", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   margin-top: -2.9rem;

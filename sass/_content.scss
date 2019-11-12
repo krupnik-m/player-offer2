@@ -2,6 +2,7 @@
   max-width: 1500px;
   padding: 0 7rem 6rem;
   margin: 0 auto;
+
   p {
     margin-bottom: 0.2rem;
   }
@@ -12,22 +13,29 @@
 
     li {
       font-weight: 200;
-      line-height: 1.35em;
+      line-height: 1.5em;
       font-size: 2.1rem;
+
       &:before {
         content: "•";
         font-size: 2.5rem;
-        color: #FF0068;
+        color: $secondary-color;
         display: inline-block;
         width: 1em;
         margin-left: -1.1em;
         position: absolute;
       }
+
       &.white {
         margin-left: 3.5rem;
+
         &:before {
           color: #fff;
         }
+      }
+
+      @include respond(tab-port) {
+        text-align: right;
       }
     }
   }
@@ -46,7 +54,19 @@
     padding: 0 4rem;
   }
 
-  .m5{
+  .m5 {
     margin-top: 5rem;
   }
+
+}
+
+.big-vertical-margin {
+  padding: 8rem 0 7rem;
+  @include respond(tab-port) {
+    padding: 0;
+    ul>li{
+      text-align: left;
+    }
+  }
+
 }

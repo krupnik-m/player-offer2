@@ -24,7 +24,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%;
+  font-size: 76.5%;
   min-width: 390px; }
   @media only screen and (max-width: 75em) {
     html {
@@ -90,11 +90,14 @@ h1 {
   text-align: center; }
   h1 span {
     display: inline-block;
-    background: #FF0068;
-    width: 5rem;
-    height: 5rem;
-    line-height: 4.5rem;
-    border-radius: 50%; }
+    background: #65dcfb;
+    width: 5.2rem;
+    height: 5.2rem;
+    line-height: 4.8rem;
+    border-radius: 50%;
+    text-shadow: #007da5 1px 0 10px;
+    text-align: center;
+    margin-left: -3rem; }
 
 h2 {
   font-size: 3rem;
@@ -109,7 +112,7 @@ h2 {
 h5 {
   font-size: 3rem;
   font-family: "Open Sans Condensed", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   margin-top: -2.9rem; }
@@ -140,18 +143,18 @@ a, li {
 
 .button.header-button {
   position: absolute;
-  width: 10%;
-  top: 69%;
+  width: 12%;
+  top: 63%;
   padding: 0;
-  left: calc(50% - 5%);
+  left: calc(50% - 6%);
   font-size: 1.9rem; }
   @media only screen and (max-width: 75em) {
     .button.header-button {
-      top: 67.5%;
+      top: 63.5%;
       font-size: 1.7rem; } }
   @media only screen and (max-width: 56.25em) {
     .button.header-button {
-      top: 62%;
+      top: 59%;
       width: 24%;
       left: calc(50% - 12%);
       font-size: 2rem; } }
@@ -170,12 +173,12 @@ a, li {
     margin-bottom: 3.5rem; }
     .container_ ul li {
       font-weight: 200;
-      line-height: 1.35em;
+      line-height: 1.5em;
       font-size: 2.1rem; }
       .container_ ul li:before {
         content: "•";
         font-size: 2.5rem;
-        color: #FF0068;
+        color: #65dcfb;
         display: inline-block;
         width: 1em;
         margin-left: -1.1em;
@@ -184,6 +187,9 @@ a, li {
         margin-left: 3.5rem; }
         .container_ ul li.white:before {
           color: #fff; }
+      @media only screen and (max-width: 56.25em) {
+        .container_ ul li {
+          text-align: right; } }
   .container_ strong {
     font-weight: 900; }
   .container_ .center-block {
@@ -194,6 +200,14 @@ a, li {
     padding: 0 4rem; }
   .container_ .m5 {
     margin-top: 5rem; }
+
+.big-vertical-margin {
+  padding: 8rem 0 7rem; }
+  @media only screen and (max-width: 56.25em) {
+    .big-vertical-margin {
+      padding: 0; }
+      .big-vertical-margin ul > li {
+        text-align: left; } }
 
 .footer {
   margin-top: 30px;
@@ -206,7 +220,7 @@ a, li {
     margin: 0;
     font-size: 1.5rem; }
   .footer .footer-section {
-    background-color: #f90069;
+    background-color: #65dcfb;
     margin-bottom: 32px;
     padding: 16px;
     width: 100%; }
