@@ -238,14 +238,14 @@ a, li {
     padding: 8rem 0 7rem; }
     .container_ .big-vertical-margin li {
       line-height: 1.9em; }
-
-@media only screen and (max-width: 56.25em) {
-  .big-vertical-margin {
-    padding: 0; }
-    .big-vertical-margin > ul > li {
-      text-align: left; }
-      .big-vertical-margin > ul > li:before {
-        margin-left: -0.7em; } }
+  @media only screen and (max-width: 56.25em) {
+    .container_ .big-vertical-margin {
+      padding: 0; }
+      .container_ .big-vertical-margin > ul > li {
+        text-align: left;
+        line-height: 1.5em; }
+        .container_ .big-vertical-margin > ul > li:before {
+          margin-left: -0.7em; } }
 
 .footer {
   margin-top: 30px;

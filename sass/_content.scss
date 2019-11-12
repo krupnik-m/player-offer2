@@ -95,20 +95,20 @@
       line-height: 1.9em;
     }
   }
-}
+  @include respond(tab-port) {
+    .big-vertical-margin {
+      padding: 0;
 
-
-
-@include respond(tab-port) {
-  .big-vertical-margin {
-    padding: 0;
-
-    &>ul>li {
-      text-align: left;
-
-      &:before {
-        margin-left: -0.7em;
+      &>ul>li {
+        text-align: left;
+        line-height: 1.5em;
+        &:before {
+          margin-left: -0.7em;
+        }
       }
     }
   }
 }
+
+
+
